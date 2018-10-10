@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  HQSortButtonDemo
 //
-//  Created by 君凯商联网 on 2018/10/10.
-//  Copyright © 2018年 君凯商联网. All rights reserved.
+//  Created by Mr_Han on 2018/10/10.
+//  Copyright © 2018年 Mr_Han. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "HQSortViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    HQSortViewController *vc = [NSClassFromString(@"HQSortViewController") new];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

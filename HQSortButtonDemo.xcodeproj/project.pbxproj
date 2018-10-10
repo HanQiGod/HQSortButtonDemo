@@ -15,6 +15,10 @@
 		7AA4DAD9216D9C5E0001696A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAD8216D9C5E0001696A /* main.m */; };
 		7AA4DAE3216D9C5E0001696A /* HQSortButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAE2216D9C5E0001696A /* HQSortButtonDemoTests.m */; };
 		7AA4DAEE216D9C5E0001696A /* HQSortButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAED216D9C5E0001696A /* HQSortButtonDemoUITests.m */; };
+		7AA4DAFD216D9CA40001696A /* HQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAFC216D9CA40001696A /* HQSortButton.m */; };
+		7AA4DB00216D9CBE0001696A /* HQSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAFF216D9CBE0001696A /* HQSortViewController.m */; };
+		7AA4DB04216D9F7F0001696A /* sortBtn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4DB03216D9F7E0001696A /* sortBtn.gif */; };
+		E7AC7E06E03B110C4138F725 /* libPods-HQSortButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDBD2DBF6A95746386DB605 /* libPods-HQSortButtonDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BDBD2DBF6A95746386DB605 /* libPods-HQSortButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQSortButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FB20D5C54E15598A74EABD /* Pods-HQSortButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQSortButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQSortButtonDemo/Pods-HQSortButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7AA4DAC6216D9C5B0001696A /* HQSortButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQSortButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4DAC9216D9C5B0001696A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AA4DACA216D9C5B0001696A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		7AA4DAE9216D9C5E0001696A /* HQSortButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQSortButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4DAED216D9C5E0001696A /* HQSortButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQSortButtonDemoUITests.m; sourceTree = "<group>"; };
 		7AA4DAEF216D9C5E0001696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA4DAFB216D9CA40001696A /* HQSortButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQSortButton.h; sourceTree = "<group>"; };
+		7AA4DAFC216D9CA40001696A /* HQSortButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQSortButton.m; sourceTree = "<group>"; };
+		7AA4DAFE216D9CBE0001696A /* HQSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQSortViewController.h; sourceTree = "<group>"; };
+		7AA4DAFF216D9CBE0001696A /* HQSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQSortViewController.m; sourceTree = "<group>"; };
+		7AA4DB03216D9F7E0001696A /* sortBtn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sortBtn.gif; sourceTree = "<group>"; };
+		D907BD3B49269B40077B0F53 /* Pods-HQSortButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQSortButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQSortButtonDemo/Pods-HQSortButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AC7E06E03B110C4138F725 /* libPods-HQSortButtonDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CE5F8B47902182204B928A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBD2DBF6A95746386DB605 /* libPods-HQSortButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A0BB28CD7378EF190B25DA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D907BD3B49269B40077B0F53 /* Pods-HQSortButtonDemo.debug.xcconfig */,
+				12FB20D5C54E15598A74EABD /* Pods-HQSortButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7AA4DABD216D9C5B0001696A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				7AA4DAE1216D9C5E0001696A /* HQSortButtonDemoTests */,
 				7AA4DAEC216D9C5E0001696A /* HQSortButtonDemoUITests */,
 				7AA4DAC7216D9C5B0001696A /* Products */,
+				6A0BB28CD7378EF190B25DA2 /* Pods */,
+				0CE5F8B47902182204B928A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +133,15 @@
 		7AA4DAC8216D9C5B0001696A /* HQSortButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7AA4DAFB216D9CA40001696A /* HQSortButton.h */,
+				7AA4DAFC216D9CA40001696A /* HQSortButton.m */,
+				7AA4DAFE216D9CBE0001696A /* HQSortViewController.h */,
+				7AA4DAFF216D9CBE0001696A /* HQSortViewController.m */,
 				7AA4DAC9216D9C5B0001696A /* AppDelegate.h */,
 				7AA4DACA216D9C5B0001696A /* AppDelegate.m */,
 				7AA4DACC216D9C5B0001696A /* ViewController.h */,
 				7AA4DACD216D9C5B0001696A /* ViewController.m */,
+				7AA4DB03216D9F7E0001696A /* sortBtn.gif */,
 				7AA4DACF216D9C5B0001696A /* Main.storyboard */,
 				7AA4DAD2216D9C5D0001696A /* Assets.xcassets */,
 				7AA4DAD4216D9C5D0001696A /* LaunchScreen.storyboard */,
@@ -139,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AA4DAF2216D9C5E0001696A /* Build configuration list for PBXNativeTarget "HQSortButtonDemo" */;
 			buildPhases = (
+				F51CEB92489852410564009C /* [CP] Check Pods Manifest.lock */,
 				7AA4DAC2216D9C5B0001696A /* Sources */,
 				7AA4DAC3216D9C5B0001696A /* Frameworks */,
 				7AA4DAC4216D9C5B0001696A /* Resources */,
@@ -238,6 +276,7 @@
 				7AA4DAD6216D9C5D0001696A /* LaunchScreen.storyboard in Resources */,
 				7AA4DAD3216D9C5D0001696A /* Assets.xcassets in Resources */,
 				7AA4DAD1216D9C5B0001696A /* Main.storyboard in Resources */,
+				7AA4DB04216D9F7F0001696A /* sortBtn.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +296,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F51CEB92489852410564009C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQSortButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AA4DAC2216D9C5B0001696A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +324,9 @@
 			files = (
 				7AA4DACE216D9C5B0001696A /* ViewController.m in Sources */,
 				7AA4DAD9216D9C5E0001696A /* main.m in Sources */,
+				7AA4DAFD216D9CA40001696A /* HQSortButton.m in Sources */,
 				7AA4DACB216D9C5B0001696A /* AppDelegate.m in Sources */,
+				7AA4DB00216D9CBE0001696A /* HQSortViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +495,7 @@
 		};
 		7AA4DAF3216D9C5E0001696A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D907BD3B49269B40077B0F53 /* Pods-HQSortButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +512,7 @@
 		};
 		7AA4DAF4216D9C5E0001696A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FB20D5C54E15598A74EABD /* Pods-HQSortButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

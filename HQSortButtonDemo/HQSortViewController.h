@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HQSortViewController.h
 //  HQSortButtonDemo
 //
 //  Created by Mr_Han on 2018/10/10.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HQSortViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
